@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "production": "cra-firebase-experiment",
+    "staging": "cra-firebase-experiment-stagin"
+  }
+}
