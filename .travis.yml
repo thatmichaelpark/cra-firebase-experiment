@@ -3,7 +3,7 @@ node_js:
   - "stable"
 
 before_script:
-  - ls build
+  - ls 
 
 after_script:
   - ls build
