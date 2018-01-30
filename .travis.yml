@@ -2,12 +2,9 @@ language: node_js
 node_js:
   - "stable"
 
-before_script:
-  - ls 
+script:
+  - npm run build
 
-after_script:
-  - ls build
-    
 deploy:
   provider: firebase
   token:
