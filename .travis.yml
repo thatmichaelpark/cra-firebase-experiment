@@ -10,9 +10,8 @@ cache:
   - packages/react-scripts/node_modules
 
 script:
-  - ls $TRAVIS_BUILD_DIR
   - npm run build
-  - ls $TRAVIS_BUILD_DIR
+  - ls $TRAVIS_BUILD_DIR/build
 
 deploy:
   provider: firebase
