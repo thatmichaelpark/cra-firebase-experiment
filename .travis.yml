@@ -10,6 +10,7 @@ cache:
   - packages/react-scripts/node_modules
 
 script:
+  - echo $TRAVIS_BRANCH
   - npm run build
   - mv $TRAVIS_BUILD_DIR/public $TRAVIS_BUILD_DIR/old-public
   - mv $TRAVIS_BUILD_DIR/build $TRAVIS_BUILD_DIR/public
