@@ -11,7 +11,7 @@ cache:
 
 script:
   - npm run build
-  - ls $TRAVIS_BUILD_DIR/build
+  - cat $TRAVIS_BUILD_DIR/build/index.html
 
 deploy:
   provider: firebase
