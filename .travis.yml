@@ -9,6 +9,10 @@ cache:
   - packages/create-react-app/node_modules
   - packages/react-scripts/node_modules
 
+branches:
+  only:
+  - master
+  
 script:
   - echo $TRAVIS_BRANCH
   - npm run build
