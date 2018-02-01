@@ -11,6 +11,7 @@ cache:
 
 branches:
   only:
+  - production
   - develop
   
 script:
@@ -31,8 +32,8 @@ deploy:
     skip_cleanup: true
   - provider: firebase
     token:
-      secure: "CcsRsHT+B9CmsMPkVjjHv4+FCSUqp7G013dl79eJZrlqt7kURFBzypwd60DKMdDU7dx5r21LjF0ooo6+E7CbANAylLVcrL+MMv3PvQSe2L8e3osH/Y3gUz+18QYYJCxasExTRrIUbNs1Hhbd4MizyORwhl30W6tIAm5QeYRS4kIWHA7zB5uTco+L9TtKTM5S41dikmyc1DEOFArgOpLXt/ek4Jk13KdU7bPq1K5YPEL5Hg5ugoz/zelgLVPliFp/8WfnrVJ2bRZx4oBcwTQa/CKqqXtuS3fRvh4fx1vlw9TuQx73medt0pZn4TTVn7xIlm2GtQIAlATPvku+z2ZvIAMHqDKCJlS+hzBqVxXVyv5Wtl0APnKa+b6Fp78w2UbysAzjanhBnXLR0sfCcWi4m6dpo23ljxEejRbEWJgU8PMPmMk7ptEahfEfgA3TJjAzZQ+BaPdEDfvnuzUbbfOZbmxLiLQO8Y/oZPS+T3Z0NMZvWCRR4Amhci15M/c0+vF0aXj32VWfSY2rYlqik56AQGG8qHFRtBbcmvYdHAKY6vkXPDi2U71JYqp478aOYTm4k48OVZn3ehjxzycI7EHxl01E9a7aL3AVdIsvl5TS5+qof0sTym3Nkzm6sS5i2tkZ9ENTCTGe8+8JaawlAvh2TDtPoABrMjQMpWtJgNc3zhk="
-    project: "staging"
+      secure: "bJMAItrya15TA2+C5n2p+ZYLVbuQ03wVziO3Wrfgaaaa8DL12d+8V+a65f6XUbRzi+Dd5YRIjp+VU/vTb+LhzYWatUXMIFk1NipgYqPw0FpOB/pBzdR34GBs0n2hens061Sv8657HLkN6XPuNIKVrRoJK/TGdwdtoL+ABlqkMUWc+9qHKeLmsQOjKe6NpefEY32rP/BFxwa9/2sT8CSUOwfFoFJW+SLtPIlc7PqhnjHH3E4A0nooDPaKV8BvT/QK52NGiwj0KY9CSfuCP/DAOMDkEn9zZpBSwMQvsQVuHcExyT1KbelHQ0aMnkLooE8+o5xlorXPAq5Li0dPSWS2lDNhoagejzxzLQPuhbk4g3gmUqfmZUYejqslNVKDR5ub1RgimasUDG3tG2dSP3bJ6yt0cm+ceInxndLhJwQ7jOkCaudP9dAeEmuIMw5ikjyymbnkd3927V97RHuBROYz4pmlJC0h19mQ0QErxNbuqqF8I8lSCN/Wghv4XLnQnhR0sy/pImniONhgK9clkQEhdhLBgs5Qx44REHGjxFlRUaERPCmOpcWwl0pHyTW3KbXWjGMyczcCA2W6nmR2wpaLv68p2HA7S+/EcxIJIRVNudpRIZQD2RV6cTexqBB55uVBE5omCj+to/T69KWDTbJrl+l/BurjN2GfUwHXeXxP7/Y="
+    project: "develop"
     message: "deploying to staging"
     on:
       branch: develop
