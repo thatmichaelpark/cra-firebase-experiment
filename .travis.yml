@@ -33,7 +33,7 @@ deploy:
   - provider: firebase
     token:
       secure: "KjJPzjslgoArgsgkbjJY7rSwu9/xeoMFcCh/+e/6jRbradmjJRZ3ct7CME6xN6l5z7C1Xqud886HwPUxovsGjWKBXXdiB2Khr2hslmrG2ThxVZ2yX3JdptmWk59HT4q0Js6GYH2NBsPozQNWC5MqkjjH0wAGNE2iKVA6lLUzpvjZhVxC6IXtd4CpwV1BAYz1y6d4K3gsFEem+OhCSFhW1ajr024UqAV+3fyE4sfGA088a6veGmTd8qihNPG0PsEUwDM0Pm8oN/Ms9Zd5Q4zou3mLRtoANm0ukxggf0IgqAZYIAELl4ziUuq+P7qmoTgkgpaeS5Co229+/n9JckU5gQFjynFMNB240vM4RgNhprCc4DcUlqh6IplXw2eFG3JmMvTNOV4Vn0GTlLNnL1f5ZrYLmGrCHkj5EJo4Q/6B7NDtKxcjZJG1f8GlHlQHyHmVb/co0YLOoIxIGq+9rlh1a+j/uIK1C49/KmPXR8Pzd1YSQy281604UUmPtxowDS8hWNWQJnxg6LB+CK1je1SXJl7UmosmosEbAkuZ6LDIhi3tTeujng6vOqk8vLii2Q7fOlMd3UhliNJK1b0nymkBPswM+7U1Q3Jx1whqNFH/+b+1IVIwmpKfj7RUfg6llppdt2cohepi6N9xBw8MUVU3+uLxoxWOHDLIj55mvdMrhOc="
-    project: "develop"
+    project: "staging"
     message: "deploying to staging"
     on:
       branch: develop
